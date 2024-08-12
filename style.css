@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container{
+    background: linear-gradient(135deg,rgb(255, 243, 71),orangered);
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+.todo-app{
+    width: 100%;
+    background-color: #fff;
+    max-width: 420px;
+    padding: 40px 30px 70px;
+    margin: 100px auto 20px;
+    border-radius: 10px;
+}
+.todo-app h4{
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #dbdbdb;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    outline:none;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-size: 20px;
+    border: none;
+    background-color: hsl(276, 99%, 34%);
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+button:hover{
+    background-color:hsl(276, 99%, 27%); 
+
+}
+#list-container li{
+    font-size: 1.4rem;
+    list-style: none;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+}
+ol li span{
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 1px 9px;
+    transition: .3s;
+}
+ol li span:hover{
+    color:rgb(255, 94, 0) ;
+    background-color: #b6b6b6;
+    width: 30px;
+    height: 10px;
+  
+    border-radius: 10000px;
+}
